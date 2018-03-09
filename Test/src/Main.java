@@ -6,12 +6,11 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
-    private static String currentDate = null;
     static Scanner scanner;
     static SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
     public static void main(String[] args) throws ParseException {
-        String timeStamp = "null";
+
         String todate, fromdate;
 
 
